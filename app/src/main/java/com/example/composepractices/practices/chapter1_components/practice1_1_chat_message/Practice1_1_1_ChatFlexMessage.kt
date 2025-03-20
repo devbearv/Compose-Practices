@@ -30,6 +30,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.composepractices.practices.chapter1_components.practice1_1_chat_message.widget.ChatFlexBoxLayout
+import com.example.composepractices.practices.chapter1_components.practice1_1_chat_message.widget.ChatInput
 import com.example.composepractices.ui.theme.Blue400
 import com.example.composepractices.ui.theme.ComposePracticesTheme
 import com.example.composepractices.ui.theme.Green400
@@ -77,6 +78,15 @@ fun Practice1_1_1_ChatFlexMessage() {
                     }
                 }
             }
+
+            ChatInput(onChangeMessage = {
+                messages.add(
+                    ChatMessage(
+                        message = it,
+                        time = Timestamp(System.currentTimeMillis())
+                    )
+                )
+            })
         }
     }
 }
