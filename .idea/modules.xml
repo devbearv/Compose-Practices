@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Compose_Practices.iml" filepath="$PROJECT_DIR$/.idea/modules/Compose_Practices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Compose_Practices.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
