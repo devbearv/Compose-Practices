@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.composepractices.app-mergeDebugResources-44:/values-sq/values-sq.xml",
+            "outputFile": "com.example.composepractices.app-mergeDebugResources-62:/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\3253277842d9be21adb63abf400a3bfa\\transformed\\foundation-release\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,153",
-                        "endColumns": "97,98",
-                        "endOffsets": "148,247"
-                    },
-                    "to": {
-                        "startLines": "85,86",
-                        "startColumns": "4,4",
-                        "startOffsets": "8849,8947",
-                        "endColumns": "97,98",
-                        "endOffsets": "8942,9041"
-                    }
-                },
-                {
-                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\ab4aca98f7f10059d8e385cf0ea0b567\\transformed\\ui-release\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,283,382,484,580,661,754,846,936,1023,1114,1187,1262,1338,1411,1488,1554",
-                        "endColumns": "94,82,98,101,95,80,92,91,89,86,90,72,74,75,72,76,65,120",
-                        "endOffsets": "195,278,377,479,575,656,749,841,931,1018,1109,1182,1257,1333,1406,1483,1549,1670"
-                    },
-                    "to": {
-                        "startLines": "9,10,11,12,13,14,15,73,74,75,76,77,78,79,80,82,83,84",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "842,937,1020,1119,1221,1317,1398,7827,7919,8009,8096,8187,8260,8335,8411,8585,8662,8728",
-                        "endColumns": "94,82,98,101,95,80,92,91,89,86,90,72,74,75,72,76,65,120",
-                        "endOffsets": "932,1015,1114,1216,1312,1393,1486,7914,8004,8091,8182,8255,8330,8406,8479,8657,8723,8844"
-                    }
-                },
-                {
-                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\b4590003856c0a3454361d2924173747\\transformed\\material3-release\\res\\values-sq\\values-sq.xml",
+                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\c9f959775a501d58b854e42d1cca6b32\\transformed\\material3-release\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\a2eb36d8fcfe5aa27681993c1758b69d\\transformed\\core-1.13.1\\res\\values-sq\\values-sq.xml",
+                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\b132d71f6b2d8b88501ed219b84b8820\\transformed\\core-1.13.1\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -69,6 +35,40 @@
                         "startOffsets": "105,204,306,404,501,609,720,8484",
                         "endColumns": "98,101,97,96,107,110,121,100",
                         "endOffsets": "199,301,399,496,604,715,837,8580"
+                    }
+                },
+                {
+                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\21ac51259e24bb691c15adc2e7d00d17\\transformed\\foundation-release\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,153",
+                        "endColumns": "97,98",
+                        "endOffsets": "148,247"
+                    },
+                    "to": {
+                        "startLines": "85,86",
+                        "startColumns": "4,4",
+                        "startOffsets": "8849,8947",
+                        "endColumns": "97,98",
+                        "endOffsets": "8942,9041"
+                    }
+                },
+                {
+                    "source": "P:\\Prst\\Android\\.gradle\\caches\\8.11.1\\transforms\\27503ec0b15f8ffb7394bf0dcf1a7d6c\\transformed\\ui-release\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,283,382,484,580,661,754,846,936,1023,1114,1187,1262,1338,1411,1488,1554",
+                        "endColumns": "94,82,98,101,95,80,92,91,89,86,90,72,74,75,72,76,65,120",
+                        "endOffsets": "195,278,377,479,575,656,749,841,931,1018,1109,1182,1257,1333,1406,1483,1549,1670"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14,15,73,74,75,76,77,78,79,80,82,83,84",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "842,937,1020,1119,1221,1317,1398,7827,7919,8009,8096,8187,8260,8335,8411,8585,8662,8728",
+                        "endColumns": "94,82,98,101,95,80,92,91,89,86,90,72,74,75,72,76,65,120",
+                        "endOffsets": "932,1015,1114,1216,1312,1393,1486,7914,8004,8091,8182,8255,8330,8406,8479,8657,8723,8844"
                     }
                 }
             ]

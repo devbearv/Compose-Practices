@@ -16,6 +16,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.IconButtonColors
 import androidx.compose.material3.IconButtonDefaults
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -71,6 +72,31 @@ fun <GenericIcon> SampleIconButton(
             contentDescription = contentDescription
         )
     }
+}
+
+@Composable
+fun <GenericIcon> SampleIconButton(
+    modifier: Modifier = Modifier,
+    icon: GenericIcon,
+    contentDescription: String? = null,
+    enabled: Boolean = true,
+    interactionSource: MutableInteractionSource? = null,
+    onClick: () -> Unit
+) {
+    SampleIconButton(
+        modifier = modifier,
+        onClick = onClick,
+        icon = icon,
+        contentDescription = contentDescription,
+        enabled = enabled,
+        interactionSource = interactionSource,
+        colors = IconButtonDefaults.iconButtonColors(
+            containerColor = Green400,
+            contentColor = Color.White,
+            disabledContainerColor = MaterialTheme.colorScheme.secondaryContainer,
+            disabledContentColor = MaterialTheme.colorScheme.onSecondaryContainer
+        )
+    )
 }
 
 /**

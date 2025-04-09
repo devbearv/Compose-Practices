@@ -8,5 +8,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Compose Practices</string>
+    <string name="sample_chat_placeholder_1">Write your message</string>
     <style name="Theme.ComposePractices" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

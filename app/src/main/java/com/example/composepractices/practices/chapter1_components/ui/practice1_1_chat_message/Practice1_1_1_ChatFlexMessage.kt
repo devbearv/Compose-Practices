@@ -1,4 +1,4 @@
-package com.example.composepractices.practices.chapter1_components.practice1_1_chat_message
+package com.example.composepractices.practices.chapter1_components.ui.practice1_1_chat_message
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -29,8 +29,8 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.composepractices.practices.chapter1_components.practice1_1_chat_message.widget.ChatFlexBoxLayout
-import com.example.composepractices.practices.chapter1_components.practice1_1_chat_message.widget.ChatInput
+import com.example.composepractices.practices.chapter1_components.ui.practice1_1_chat_message.widget.ChatFlexBoxLayout
+import com.example.composepractices.practices.chapter1_components.ui.practice1_1_chat_message.widget.ChatInput
 import com.example.composepractices.ui.theme.Blue400
 import com.example.composepractices.ui.theme.ComposePracticesTheme
 import com.example.composepractices.ui.theme.Green400

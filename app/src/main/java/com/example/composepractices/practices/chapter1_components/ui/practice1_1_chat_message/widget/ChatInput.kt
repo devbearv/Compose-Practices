@@ -1,4 +1,4 @@
-package com.example.composepractices.practices.chapter1_components.practice1_1_chat_message.widget
+package com.example.composepractices.practices.chapter1_components.ui.practice1_1_chat_message.widget
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth

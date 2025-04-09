@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Compose Practices</string>
+    <string name="sample_chat_placeholder_1">Write your message</string>
 </resources>

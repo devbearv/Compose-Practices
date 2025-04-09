@@ -11,20 +11,19 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.composepractices.practices.chapter2_layouts.ui.practice2_1_chat_layout.Practice2_1_1_ChatLayout
+import com.example.composepractices.practices.chapter2_layouts.ui.practice2_2_tagging_input_layout.Practice2_1_1_TaggingInputLayout
 import com.example.composepractices.ui.theme.ComposePracticesTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             ComposePracticesTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                Practice2_1_1_TaggingInputLayout()
             }
         }
     }
